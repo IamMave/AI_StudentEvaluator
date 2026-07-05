@@ -96,7 +96,17 @@ Next class will cover Page Object Model.
 ---
 # 📈 Sample Output
 ## 📸 Screenshots
- (Screenshots/DataIngestionPage.png)
+### Data Ingestion
+
+![Data Ingestion](Screenshots/DataIngestionPage.png)
+
+### Landing Page
+
+![Landing Page](Screenshots/LandingPage.png)
+
+### Student Info
+
+![Student Info](Screenshots/StudentInfo.png)
  
  
 ## 🎥 Recording
