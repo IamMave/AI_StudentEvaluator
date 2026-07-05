@@ -1,0 +1,32 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+target/
+*.class
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# API Keys
+application.properties
+config.properties
+
+# VSCode
+.vscode/
