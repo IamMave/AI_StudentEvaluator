@@ -96,7 +96,7 @@ Next class will cover Page Object Model.
 ---
 # 📈 Sample Output
 ## 📸 Screenshots
- 
+ (Screenshots/DataIngestionPage.png)
  
  
 ## 🎥 Recording
