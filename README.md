@@ -106,7 +106,7 @@ Next class will cover Page Object Model.
 
 ### Student Info
 
-![Student Info](Screenshots/StudentInfoPage.png)
+![Student Info](Screenshots/SutdentInfoPage.png)
  
  
 ## 🎥 Recording
