@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -37,3 +38,37 @@ build/
 
 ### Mac OS ###
 .DS_Store
+=======
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+target/
+*.class
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# API Keys
+application.properties
+config.properties
+
+# VSCode
+.vscode/
+>>>>>>> 445b026730bc86b9b50c3f9a26ed7796bfc8192d
