@@ -1,0 +1,11 @@
+[14:46, 21/06/2026] Arnab: Assignment is to install the TestNG plugin, generate testng.xml, try different annotation combinations, observe execution order, compare running from the class and testng.xml, and document everything in the README.
+
+[14:47, 21/06/2026] Aditi: Sir also asked everyone to submit the GitHub repository along with a proper README explaining the implementation, observations, and results.
+
+[14:48, 21/06/2026] Hunaid: Previous AI Agent assignment submissions will also be reviewed. The best implementations may get follow-up sessions.
+
+[14:49, 21/06/2026] Aditi: Next class will cover advanced annotations, utilities, WebDriver Manager, and the Page Object Model in detail.
+
+[14:50, 21/06/2026] Subha: Important interview points discussed were that TestNG works with Selenium, Appium, Playwright, and APIs. The `main()` method is not executed through testng.xml. TestNG continues execution even after test failures by default, and separate suites can be created for Sanity and Regression.
+
+[14:51, 21/06/2026] Jack: Sir suggested completing today's hands-on today itself instead of postponing it. He'll upload the assignment files and example code in the shared folder.

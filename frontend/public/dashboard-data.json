@@ -1,0 +1,113 @@
+{
+  "sessionName" : "Mentor AI Session",
+  "generatedAt" : [ 2026, 7, 2, 21, 28, 12, 805076900 ],
+  "classAnalytics" : {
+    "totalStudents" : 3,
+    "averageScore" : 40.0,
+    "highestScorer" : {
+      "studentName" : "Yadav",
+      "score" : 60,
+      "confidence" : 75,
+      "understandingSummary" : "Yadav has covered the basics of TestNG annotations and their execution order. However, he missed understanding testng.xml configuration and practical uses.",
+      "strengths" : [ "Understood basic TestNG hooks." ],
+      "missingConcepts" : [ "Testng.xml structure and parameterization for different driver setups." ],
+      "mentorRecommendations" : [ "Create a testng.xml file with multiple runs to demonstrate configuration and how parameters map to actual drivers." ],
+      "nextLearningGoal" : "",
+      "feedback" : ""
+    },
+    "lowestScorer" : {
+      "studentName" : "Sharma",
+      "score" : 20,
+      "confidence" : 50,
+      "understandingSummary" : "Understands framework/tool distinction but lacks detail on TestNG execution and practical examples.",
+      "strengths" : [ "Can explain difference between Selenium/Appium and TestNG" ],
+      "missingConcepts" : [ "Details on TestNG execution flow and specific annotations like @Test, @BeforeMethod, etc." ],
+      "mentorRecommendations" : [ "Explore in-depth with specific examples to reinforce understanding of TestNG structure and flow." ],
+      "nextLearningGoal" : "Learn details about TestNG execution flow, hooks, and specific features.",
+      "feedback" : "Sharma has a basic grasp on the difference between frameworks (TestNG) and tools (Selenium/Appium), but needs more concrete examples to solidify their understanding of how TestNG functions in practice."
+    },
+    "topPerformers" : [ {
+      "studentName" : "Yadav",
+      "score" : 60,
+      "confidence" : 75,
+      "understandingSummary" : "Yadav has covered the basics of TestNG annotations and their execution order. However, he missed understanding testng.xml configuration and practical uses.",
+      "strengths" : [ "Understood basic TestNG hooks." ],
+      "missingConcepts" : [ "Testng.xml structure and parameterization for different driver setups." ],
+      "mentorRecommendations" : [ "Create a testng.xml file with multiple runs to demonstrate configuration and how parameters map to actual drivers." ],
+      "nextLearningGoal" : "",
+      "feedback" : ""
+    }, {
+      "studentName" : "Singh",
+      "score" : 40,
+      "confidence" : 50,
+      "understandingSummary" : "The student understands the concept of setting up tasks at class level rather than per method, but lacks comprehensive grasp of all TestNG features and execution flow.",
+      "strengths" : [ "Grasped the idea to move setup logic to hooks for better organization." ],
+      "missingConcepts" : [ "Lacks understanding of full TestNG execution flow, testng.xml parameterization, and advanced annotation usage." ],
+      "mentorRecommendations" : [ "Deep dive into TestNG execution flow and parameterization in xml files." ],
+      "nextLearningGoal" : "Understand the complete setup and teardown process within TestNG including parameterization.",
+      "feedback" : "The student has a good grasp of one aspect but needs further clarification on other aspects to achieve full comprehension."
+    }, {
+      "studentName" : "Sharma",
+      "score" : 20,
+      "confidence" : 50,
+      "understandingSummary" : "Understands framework/tool distinction but lacks detail on TestNG execution and practical examples.",
+      "strengths" : [ "Can explain difference between Selenium/Appium and TestNG" ],
+      "missingConcepts" : [ "Details on TestNG execution flow and specific annotations like @Test, @BeforeMethod, etc." ],
+      "mentorRecommendations" : [ "Explore in-depth with specific examples to reinforce understanding of TestNG structure and flow." ],
+      "nextLearningGoal" : "Learn details about TestNG execution flow, hooks, and specific features.",
+      "feedback" : "Sharma has a basic grasp on the difference between frameworks (TestNG) and tools (Selenium/Appium), but needs more concrete examples to solidify their understanding of how TestNG functions in practice."
+    } ],
+    "studentsNeedingAttention" : [ {
+      "studentName" : "Sharma",
+      "score" : 20,
+      "confidence" : 50,
+      "understandingSummary" : "Understands framework/tool distinction but lacks detail on TestNG execution and practical examples.",
+      "strengths" : [ "Can explain difference between Selenium/Appium and TestNG" ],
+      "missingConcepts" : [ "Details on TestNG execution flow and specific annotations like @Test, @BeforeMethod, etc." ],
+      "mentorRecommendations" : [ "Explore in-depth with specific examples to reinforce understanding of TestNG structure and flow." ],
+      "nextLearningGoal" : "Learn details about TestNG execution flow, hooks, and specific features.",
+      "feedback" : "Sharma has a basic grasp on the difference between frameworks (TestNG) and tools (Selenium/Appium), but needs more concrete examples to solidify their understanding of how TestNG functions in practice."
+    }, {
+      "studentName" : "Singh",
+      "score" : 40,
+      "confidence" : 50,
+      "understandingSummary" : "The student understands the concept of setting up tasks at class level rather than per method, but lacks comprehensive grasp of all TestNG features and execution flow.",
+      "strengths" : [ "Grasped the idea to move setup logic to hooks for better organization." ],
+      "missingConcepts" : [ "Lacks understanding of full TestNG execution flow, testng.xml parameterization, and advanced annotation usage." ],
+      "mentorRecommendations" : [ "Deep dive into TestNG execution flow and parameterization in xml files." ],
+      "nextLearningGoal" : "Understand the complete setup and teardown process within TestNG including parameterization.",
+      "feedback" : "The student has a good grasp of one aspect but needs further clarification on other aspects to achieve full comprehension."
+    } ]
+  },
+  "studentEvaluations" : [ {
+    "studentName" : "Yadav",
+    "score" : 60,
+    "confidence" : 75,
+    "understandingSummary" : "Yadav has covered the basics of TestNG annotations and their execution order. However, he missed understanding testng.xml configuration and practical uses.",
+    "strengths" : [ "Understood basic TestNG hooks." ],
+    "missingConcepts" : [ "Testng.xml structure and parameterization for different driver setups." ],
+    "mentorRecommendations" : [ "Create a testng.xml file with multiple runs to demonstrate configuration and how parameters map to actual drivers." ],
+    "nextLearningGoal" : "",
+    "feedback" : ""
+  }, {
+    "studentName" : "Singh",
+    "score" : 40,
+    "confidence" : 50,
+    "understandingSummary" : "The student understands the concept of setting up tasks at class level rather than per method, but lacks comprehensive grasp of all TestNG features and execution flow.",
+    "strengths" : [ "Grasped the idea to move setup logic to hooks for better organization." ],
+    "missingConcepts" : [ "Lacks understanding of full TestNG execution flow, testng.xml parameterization, and advanced annotation usage." ],
+    "mentorRecommendations" : [ "Deep dive into TestNG execution flow and parameterization in xml files." ],
+    "nextLearningGoal" : "Understand the complete setup and teardown process within TestNG including parameterization.",
+    "feedback" : "The student has a good grasp of one aspect but needs further clarification on other aspects to achieve full comprehension."
+  }, {
+    "studentName" : "Sharma",
+    "score" : 20,
+    "confidence" : 50,
+    "understandingSummary" : "Understands framework/tool distinction but lacks detail on TestNG execution and practical examples.",
+    "strengths" : [ "Can explain difference between Selenium/Appium and TestNG" ],
+    "missingConcepts" : [ "Details on TestNG execution flow and specific annotations like @Test, @BeforeMethod, etc." ],
+    "mentorRecommendations" : [ "Explore in-depth with specific examples to reinforce understanding of TestNG structure and flow." ],
+    "nextLearningGoal" : "Learn details about TestNG execution flow, hooks, and specific features.",
+    "feedback" : "Sharma has a basic grasp on the difference between frameworks (TestNG) and tools (Selenium/Appium), but needs more concrete examples to solidify their understanding of how TestNG functions in practice."
+  } ]
+}

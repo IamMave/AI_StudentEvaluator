@@ -1,0 +1,95 @@
+Key Topics Covered
+
+TestNG purpose and benefits
+
+TestNG is a testing framework (agnostic to Selenium/Appium/Playwright/API) used to structure test suites, group tests, and control execution flow (suites, tests, classes, methods).
+
+Distinction highlighted between tools (e.g., Selenium, Appium) and frameworks (the reusable, agnostic automation framework built around tools).
+
+TestNG annotations and hooks (execution flow)
+
+The main hooks discussed: @BeforeSuite, @AfterSuite, @BeforeTest, @AfterTest, @BeforeClass, @AfterClass, @BeforeMethod, @AfterMethod, and @Test.
+
+Execution order explained: suite → test run → class → before-class → before-method → test method → after-method → after-class → after-test → after-suite (examples demonstrated).
+
+Emphasis on using these hooks to run setup/teardown tasks (e.g., login once per class vs per method).
+
+testng.xml (structure and usage)
+
+Structure: contains runs, which list classes and their methods; parameters can be passed to control environment (e.g., browser choice).
+
+Practical uses: define suites for sanity/regression, run tests in parallel/sequentially, control test selection and reporting.
+
+Ways to trigger tests: run class directly, right-click testng.xml, Maven CLI, CI/CD pipelines.
+
+Practical demonstration and examples
+
+Raghav demonstrated a demo TestNG class and a testng.xml file, showing:
+
+How test runs with multiple entries behave.
+
+How the same test class can be referenced multiple times (e.g., to represent Chrome vs Firefox runs) and why parameters are needed to map run names to actual drivers.
+
+Behavior when tests fail: TestNG continues subsequent tests (unlike calling methods from main), and provides aggregated pass/fail counts.
+
+TestNG features and exam/interview relevance
+
+Verbose level in testng.xml controls reporting/log output detail (levels from minimal to very granular).
+
+Priority, grouping, and data provider features were mentioned as upcoming topics.
+
+Recommended understanding: before/after hooks, flow of execution, testng.xml parameterization, and mapping those to real-world test suites (sanity vs regression).
+
+Related automation topics and interviews
+
+Waits: explicit vs fluent vs implicit — fluent wait discussed as resource-optimizing and suitable when running many tests or on limited resource device farms; explicit waits are commonly used.
+
+BDD vs TDD and tools:
+
+Cucumber (BDD) explained as using Given/When/Then; useful when requirements are flaky but less impactful in many orgs.
+
+TDD defined as shift-left where tests drive development; different from BDD.
+
+Page Object Model (POM) clarified as independent of TestNG/Cucumber; POM is a design pattern to organize UI interactions.
+
+TestNG usable across API automation, mobile, and web tests.
+
+Assignments, Deliverables & Actions
+
+Immediate assignment (Raghav):
+
+Install TestNG plugin in the IDE and generate a testng.xml.
+
+Hands-on: explore permutations/combinations of annotations, classes, methods, and testng.xml configurations. Record observations on behavior and execution order (e.g., which hooks run when, how failures affect subsequent tests).
+
+Reproduce and test scenarios Raghav demonstrated (multiple entries, parameter passing, running via testng.xml vs running class directly).
+
+Document findings: include a README in the repo with explanations, inputs, outputs, and observed behaviors.
+
+Prior assignment (reminder / competition)
+
+Participants who completed the prior AI-agent assignment should share a Git URL with a README describing what was built, accuracy/evaluation, and implementation details. Raghav will review and give follow-ups/extra sessions for top submissions.
+
+Deliverable format
+
+Git repo URL + README detailing what was done, how to run, and results. Raghav requested everyone to follow this format for submissions.
+
+Deadlines / Next steps
+
+Complete the TestNG hands-on exercises “today itself” (Raghav recommended not postponing).
+
+Raghav will post the annotated assignment details and example files to the shared location (said he would update within ~15–20 minutes).
+
+Next session will cover advanced annotations, Page Object Model, and utilities (e.g., WebDriver manager, wait utilities). Participants should be prepared with questions from their hands-on.
+
+Questions, Clarifications & FAQ Highlights
+
+Can TestNG be used with Appium/Playwright/API tests? — Yes; TestNG is independent of the underlying tool.
+
+What is the mapping between testng.xml run names (e.g., "Chrome execution") and actual driver behavior? — testng.xml needs parameters that are read in setup (e.g., @BeforeMethod) to initialize the correct driver/environment.
+
+If a method lacks TestNG annotations (or is a plain main method), will TestNG execute it? — No: when run via testng.xml, TestNG executes annotated test methods; main() will execute only if the class is run directly (IDE run), not via testng.xml.
+
+Do tests continue after failure? — Yes: TestNG will continue executing remaining tests unless explicitly configured otherwise; this was demonstrated by intentionally failing a locator and observing remaining tests run.
+
+How to group or run subsets (sanity/regression)? — Create separate suites/testng.xml files or separate blocks with the required classes/methods; commonly a dedicated testng.xml is used for frequent suites (sanity) run by pipelines.
