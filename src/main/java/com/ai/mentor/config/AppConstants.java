@@ -10,7 +10,7 @@ public final class AppConstants {
 
 
     public static final String GEMINI_API_KEY =
-            "AQ.Ab8RN6IfLOQLPNPD6zwwaZvk1rUnOOQFEMNpwqABcB9irk1jdA";
+            "";
 
     public static final String GEMINI_MODEL =
             "gemini-2.5-flash";
